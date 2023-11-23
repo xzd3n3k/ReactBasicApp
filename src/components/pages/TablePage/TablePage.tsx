@@ -1,5 +1,4 @@
 import React, {ReactElement} from "react";
-import Navbar from "../../Navbar/Navbar";
 import {Table} from "../../index";
 import data from "../../../data";
 
