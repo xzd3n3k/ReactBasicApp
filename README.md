@@ -2,7 +2,7 @@
 
 Before all of this, you have to install node modules
 
-### `npm start`
+### `npm install`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
