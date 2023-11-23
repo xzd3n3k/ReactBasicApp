@@ -1,0 +1,22 @@
+.headers {
+    padding: 1.5rem;
+}
+
+tr {
+    text-align: center;
+}
+
+table, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 1rem;
+}
+
+.rows {
+    &:hover {
+        background-color: lightblue;
+    }
+}
