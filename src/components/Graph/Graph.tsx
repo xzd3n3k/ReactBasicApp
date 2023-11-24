@@ -8,6 +8,7 @@ interface IProps {
 
 const Graph = ({ monthlyData }: IProps): ReactElement => {
     return (
+        // To make this more reusable I would put width and margin into component props
         <LineChart width={800} height={400} data={monthlyData} margin={{ top: 20, right: 30, left: 20, bottom: 10 }}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="date" />
