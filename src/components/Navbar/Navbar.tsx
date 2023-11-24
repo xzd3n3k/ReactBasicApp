@@ -2,6 +2,8 @@ import React, { ReactElement } from "react";
 import { Link } from "react-router-dom";
 import styles from './Navbar.module.css';
 
+
+// Instead of using custom CSS I would suggest using some library like Tailwind css.
 export default function Navbar(): ReactElement {
     return (
         <div>

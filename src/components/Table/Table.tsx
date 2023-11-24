@@ -8,6 +8,7 @@ interface IProps {
     data: Array<Entity>;
 }
 
+// Styles missing in the css file
 const ExpandedRow = ({ content }: { content: React.ReactNode }) => (
     <div className={style.expandedRowContainer}>
         <div className={style.expandedRow}>
@@ -42,6 +43,7 @@ const Table = ({ data }: IProps): ReactElement => {
                 </tr>
                 </thead>
                 <tbody>
+                    // Move this into separate component
                 {data.map((record, index) => (
                     <React.Fragment key={index}>
                         <tr
